@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">Contacts agenda</string>
+    <string name="usr_input">Enter username</string>
+    <string name="usr_pass">Enter password</string>
+    <string name="btn_login">Log in</string>
+    <string name="register_label">Not Having an Account?</string>
+    <string name="login_label">Already Having an Account?</string>
+    <string name="btn_register">Register</string>
+    <string name="confirm_label">Reenter password</string>
+    <string name="button_logout">Logout</string>
+
+    <string name="drawer_opened">Opened</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="drawer_add_contact">Add contact</string>
+    <string name="drawer_update_contact">Update contact</string>
+    <string name="drawer_delete_contact">Delete contact</string>
+    <string name="drawer_all_contacts">All contacts</string>
+    <string name="drawer_logout">Logout</string>
+
+    <string name="menu_edit">Add or modify contacts</string>
+    <string name="menu_all">All contacts</string>
+    <string name="user_menu">User</string>
+
+    <string name="add_contact_first_name">Enter first name</string>
+    <string name="add_contact_second_name">Enter second name</string>
+    <string name="add_contact_phone_number">Enter phone number</string>
+    <string name="add_contacts_window_name">Add Contact</string>
+    <string name="button_add">Add</string>
+    <string name="update_contact_first_name">Update first name</string>
+    <string name="update_contact_second_name">Update second name</string>
+    <string name="update_contact_phone_number">Update phone number</string>
+    <string name="button_update">Update</string>
+    <string name="button_delete">Delete</string>
+    <string name="delete_contact_name">Enter contact name</string>
+    <string name="search_name">Search by name</string>
+    <string name="statistics">Statistics</string>
+    <string name="stats">Stats</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="last_name"> Last Name </string>
+    <string name="first_name">First Name</string>
+    <string name="empty">No items to display</string>
+</resources>

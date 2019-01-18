@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/menu_all">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/all_contacts"
+                    android:title="@string/drawer_all_contacts"
+                    android:icon="@drawable/agenda" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_edit">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/add_contact"
+                    android:title="@string/drawer_add_contact"
+                    android:icon="@drawable/add" />
+
+                <item android:id="@+id/delete_contact"
+                    android:title="@string/drawer_delete_contact"
+                    android:icon="@drawable/delete"/>
+
+                <item android:id="@+id/update_contact"
+                    android:title="@string/drawer_update_contact"
+                    android:icon="@drawable/edit"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/statistics">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/user_menu_stats"
+                    android:title="@string/stats"
+                    android:icon="@drawable/chart" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/user_menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/user_menu_logout"
+                    android:title="@string/drawer_logout"
+                    android:icon="@drawable/logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

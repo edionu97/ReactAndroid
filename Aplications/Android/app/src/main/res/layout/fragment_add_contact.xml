@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:context=".contacts.AddContact">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textColorHint="@color/hintColor"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_contact_first_name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textColorHint="@color/hintColor"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/second_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/add_contact_second_name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textColorHint="@color/hintColor"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_contact_phone_number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_add_contact"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/ripple_sign_in"
+        android:text="@string/button_add"
+        android:textColor="@color/whiteSmoke" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/user" />
+
+</RelativeLayout>
